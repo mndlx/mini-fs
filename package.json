@@ -1,0 +1,17 @@
+{
+  "workspaces": [
+    "packages/*",
+    "playground/*"
+  ],
+  "name": "mini-fs",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "pnpm --filter react dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
