@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { ExampleViewerApi } from "mini-fs-viewer";
+import { Item, Tree } from '../../../packages/mini-fs-viewer/src'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,7 +29,9 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <div><ExampleViewerApi /></div>
+      <div>
+        <Tree />
+      </div>
     </>
   )
 }

@@ -2,7 +2,7 @@
   "name": "mini-fs-viewer",
   "version": "0.0.1",
   "private": false,
-"exports": {
+  "exports": {
     ".": {
       "import": "./src/index.ts"
     }
@@ -18,11 +18,13 @@
     "react-dom": "^19.2.0"
   },
   "dependencies": {
-    "mini-fs-core": "workspace:*"
+    "@types/react": "^19.2.6",
+    "mini-fs-core": "workspace:*",
+    "react-icons": "^5.5.0"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
     "typescript": "^5.0.0",
-    "vite": "^5.0.0",
-    "@vitejs/plugin-react": "^4.0.0"
+    "vite": "^5.0.0"
   }
 }

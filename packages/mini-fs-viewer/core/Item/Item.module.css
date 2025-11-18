@@ -1,0 +1,22 @@
+.item {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    gap: 2px;
+    border: 1px solid #ddd;
+    padding: 4px 16px 6px 16px;
+    border-radius: 4px;
+    width: 55px;
+    height: fit-content;
+}
+
+.type {
+    font-size: 32px;
+}
+
+.name {
+    font-size: 12px;
+    line-height: 12px;
+}
